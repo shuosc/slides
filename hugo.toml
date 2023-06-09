@@ -1,3 +1,16 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+theme = ["reveal-hugo"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup.tableOfContents]
+  startLevel = 1
+  endLevel = 4
+
+[minify]
+  disableHTML = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
