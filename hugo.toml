@@ -1,4 +1,4 @@
-theme = ["reveal-hugo"]
+theme = ["github.com/dzello/reveal-hugo"]
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
