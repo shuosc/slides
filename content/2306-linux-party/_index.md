@@ -114,14 +114,12 @@ Linus's law:
 
 ---
 
-### ![Debian](https://www.debian.org/logos/openlogo.svg)
+### ![Debian](https://cdn.icon-icons.com/icons2/2699/PNG/512/debian_logo_icon_168290.png)
 
 - 固若金汤，稳定性极强
 - 坚守 UNIX 和自由软件的精神
-- 有着丰富的软件源
-- 支持众多计算机架构，
-  
-  同时也是众多发行版的直接上游或源头
+- 支持众多计算机架构
+- 众多发行版的直接上游或源头
 
 ---
 ### ![Arch Linux](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Archlinux-logo-standard-version.png/640px-Archlinux-logo-standard-version.png)
