@@ -1,8 +1,5 @@
 +++
-title = "My presentation"
+title = "Presentations"
 outputs = ["Reveal"]
+type = "slides"
 +++
-
-# Hello world!
-
-This is my first slide.
