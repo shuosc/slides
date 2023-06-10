@@ -44,9 +44,8 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 
 由于 Linux 的开源性质，任何人都可以查看源代码，发现并修复漏洞
 
-Linus's law:
-
-> given enough eyeballs, all bugs are shallow
+> Given enough eyeballs, all bugs are shallow. 
+>   —— Linus' Law
 
 ---
 
