@@ -109,7 +109,8 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 
 - 简单易上手，适合新手
 - 基于 Debian，有着丰富软件源
-- 社区活跃，有大量的教程和问答
+- Canonical 公司运营，商业推广出色
+- 群众基础广泛，有大量的教程和问答
 
 ---
 
@@ -126,22 +127,23 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 - 遵循 [KISS 原则](https://zh.wikipedia.org/wiki/KISS%E5%8E%9F%E5%88%99)，简单而高效，
 - 滚动更新，永不过时
 - 极其丰富的软件源和积极的社区支持
-- Arch Wiki 是 Linux 社区最好的 Wiki
+- [Arch Wiki](http://wiki.archlinux.org/) 是 Linux 社区最好的 Wiki
 - 适合有 DIY 需求的用户，~~除了难装，其他都很简单~~
 ---
 
-![LinuxChoose](img/LinuxChoose.webp)
+[![LinuxChoose](img/LinuxChoose.webp)](https://distrochooser.de/zh-hans)
 
 ---
 ### ![Manjaro](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Manjaro_logo_text.svg/640px-Manjaro_logo_text.svg.png)
 
-- 基于 Arch Linux，但是更简单易用，适合新手
-- 能使用大部分 Arch Linux 的软件源
+- 基于 Arch Linux，但安装更友好，适合新手
+- 能使用大部分 Arch Linux 的软件源）
 - 界面美观，自带驱动，可更换内核
+
 ---
 ### ![Fedora](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Fedora_logo_%282021%29.svg/640px-Fedora_logo_%282021%29.svg.png)
 
-- 由 Red Hat 公司赞助，社区活跃
+- 由 Red Hat 公司赞助，可看作 CentOS/RHEL 的上游
 - 有着丰富的软件源
 - Linus Torvalds 使用的发行版
 - 适合有一定 Linux 基础的用户
@@ -182,14 +184,55 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 
 {{% section %}}
 
+## Linux 桌面环境速览
+
+桌面环境=Desktop Environment(DE)
+
+---
+
+### Linux 桌面环境的特点
+
+- 桌面环境可单独安装，独立于发行版
+- 不同桌面环境风格各异，提供丰富的软件选择
+- 稳定性在逐渐提升，完全满足日用需求
+
+---
+
+## GNOME
+
+外观简洁，功能稍差
+
+![GNOME](https://www.gnome.org/wp-content/uploads/2023/02/wgo-splash-40.webp)
+
+---
+## KDE
+
+强大高效，设置丰富
+
+![KDE](https://kde.org/announcements/plasma/5/5.27.0/fullscreen_with_apps.png)
+
+---
+
+## Xfce
+
+朴实无华，资源消耗低
+
+![Xfce](https://spins.fedoraproject.org/static/images/screenshots/screenshot-xfce.jpg)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
 ## <span style="text-transform: none;">Linux 安装的 N 种方式</span>
 
 ---
 
 ### 实体机安装
 
-- 无需虚拟化，性能最好
-- 原汁原味
+- 性能最好，体验最真实
+- 需要对磁盘分区和系统启动方式有一定了解
 
 ---
 
@@ -205,12 +248,14 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 
 - 性能损耗低
 - 无需重启
-- 无缝切换
+- 与 Windows 无缝集成
+
 ---
 
 ### 容器安装
 
-借助 [Termux](https://f-droid.org/zh_Hans/packages/com.termux/) 和 proot/chroot 容器可以实现在 Android 等设备上运行 Linux 系统
+- 使用 Podman/Docker 等容器方案可以便捷创建轻量的 Linux 环境
+- 借助 [Termux](https://f-droid.org/zh_Hans/packages/com.termux/) 和 proot/chroot 容器可以实现在 Android 等设备上运行 Linux 系统
 
 ```shell
 . <(curl -L gitee.com/mo2/linux/raw/2/2)
@@ -221,5 +266,35 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 ---
 
 {{% section %}}
+
+## Linux 用户遇到问题该怎么办？
+
+---
+
+### 自力更生
+
+- RTFM: Read The Manual
+- STFW: Search The Web
+
+---
+
+### 社区支持
+
+[提问的智慧](https://lug.ustc.edu.cn/wiki/doc/smart-questions/)
+
+- Linux User Group
+  - USTCLUG
+  - SJTUG
+  - SHLUG
+- Forum/BBS
+- Telegram/QQ Group
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
 ## <span style="text-transform: none;">Talk is cheap, Let's install Linux</span>
+
 {{% /section %}}
