@@ -132,6 +132,7 @@ Linus's law:
 ---
 
 ![LinuxChoose](img/LinuxChoose.webp)
+
 ---
 ### ![Manjaro](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Manjaro_logo_text.svg/640px-Manjaro_logo_text.svg.png)
 
