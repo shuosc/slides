@@ -18,9 +18,11 @@ by [SHUOSC](https://shuosc.org)
 
 {{% section %}}
 
-## 声明
+## [声明](https://www.gnu.org/gnu/linux-and-gnu.zh-cn.html)
 
-事实上，Linux 指的是一个操作系统的内核，而Linux 一般和 GNU 操作系统一起使用：整个系统基本上就是 GNU 加上 Linux，或叫 GNU/Linux。
+Linux是内核，它只能在完整的操作系统框架下才能发挥作用
+
+Linux 一般和 GNU 操作系统一起使用：整个系统基本上就是 GNU 加上 Linux，或叫 GNU/Linux。
 
 所有被叫做“Linux”的发行版实际上是 GNU/Linux 发行版。
 
@@ -124,9 +126,9 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 ---
 ### ![Arch Linux](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Archlinux-logo-standard-version.png/640px-Archlinux-logo-standard-version.png)
 
-- 遵循 [KISS 原则](https://zh.wikipedia.org/wiki/KISS%E5%8E%9F%E5%88%99)，简单而高效，
+- 遵循 [KISS 原则](https://zh.wikipedia.org/wiki/KISS%E5%8E%9F%E5%88%99)，简单而高效
 - 滚动更新，永不过时
-- 极其丰富的软件源和积极的社区支持
+- 极其丰富的软件源（包括用户自制的AUR）和积极的社区支持
 - [Arch Wiki](http://wiki.archlinux.org/) 是 Linux 社区最好的 Wiki
 - 适合有 DIY 需求的用户，~~除了难装，其他都很简单~~
 ---
@@ -137,8 +139,9 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 ### ![Manjaro](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Manjaro_logo_text.svg/640px-Manjaro_logo_text.svg.png)
 
 - 基于 Arch Linux，但安装更友好，适合新手
-- 能使用大部分 Arch Linux 的软件源）
 - 界面美观，自带驱动，可更换内核
+- 能沿用 Arch Linux 的软件源和文档，但易出问题
+- [为什么我不推荐Manjaro - 竹林里有冰的博客](https://zhul.in/2021/01/01/Why-I-dont-recommend-Manjaro/)
 
 ---
 ### ![Fedora](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Fedora_logo_%282021%29.svg/640px-Fedora_logo_%282021%29.svg.png)
@@ -233,14 +236,19 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 
 - 性能最好，体验最真实
 - 需要对磁盘分区和系统启动方式有一定了解
+- 步骤：
+  - 用Ventoy等工具将ISO文件装入至U盘
+  - 开机从U盘启动Live系统或安装程序
 
 ---
 
 ### 虚拟机安装
 
-- 无需重启
-- 管理方便
+- 无需重启，管理方便
 - 隔离性好，安全稳定
+- 步骤：
+  - 用VMware/VirtualBox等软件创建虚拟机
+  - 在虚拟机设置插入ISO文件
 
 ---
 
