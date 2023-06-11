@@ -201,14 +201,14 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 
 ---
 
-## GNOME
+### GNOME
 
 外观简洁，功能稍差
 
 ![GNOME](https://www.gnome.org/wp-content/uploads/2023/02/wgo-splash-40.webp)
 
 ---
-## KDE
+### KDE
 
 强大高效，设置丰富
 
@@ -216,7 +216,7 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 
 ---
 
-## Xfce
+### Xfce
 
 朴实无华，资源消耗低
 
@@ -232,6 +232,16 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 
 ---
 
+### 获取 Linux 系统安装介质
+
+- 和 Windows 一样，安装介质通常是 ISO 文件
+- 可就近选择镜像站下载
+  - [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)
+  - [中国科学技术大学开源软件镜像站](http://mirrors.ustc.edu.cn/)
+  - [校园网联合镜像站](https://mirrors.cernet.edu.cn/os)
+  - [腾讯软件源](http://mirrors.cloud.tencent.com/)
+
+---
 ### 实体机安装
 
 - 性能最好，体验最真实
@@ -255,7 +265,7 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 ### WSL 安装
 
 - 性能损耗低
-- 无需重启
+- 区分 WSL1/WSL2
 - 与 Windows 无缝集成
 
 ---
