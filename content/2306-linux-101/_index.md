@@ -21,7 +21,10 @@ by [SHUOSC](https://shuosc.org)
 ## 宗旨目标
 
 - 以爆款 C++ 开源项目为抓手
-- 快速上手 Linux 下编程开发流程
+- 快速上手 Linux 下编程开发
+  - 编译构建 C/C++ 项目
+  - 现代集成开发环境 VS Code
+  - Git 的基本操作流程
 - 任务驱动、即时反馈和场景化设计
 
 ---
@@ -117,7 +120,7 @@ by [SHUOSC](https://shuosc.org)
 
 ### 安装并体验VS Code扩展（10min）
 
-- `clangd`: 静态检查、代码补全、跳转定义引用
+- `clangd`: C/C++ 静态检查、代码补全、跳转定义等
 - `Remote Development`：使用 SSH，WSL，Docker 进行开发
 - `CodeLLDB`: 方便调试C++程序
 - `GitLens`: 方便进行Git版本控制操作
@@ -129,6 +132,19 @@ by [SHUOSC](https://shuosc.org)
 {{% section %}}
 
 ## 小目标：使用Git为Bitcoin创建分叉
+
+---
+
+### 修改 Bitcoin 的参数创建新币种
+
+
+在 [PR#26177](https://github.com/bitcoin/bitcoin/pull/26177) 之后，比特币的区块链参数从 [src/chainparams.cpp](https://github.com/bitcoin/bitcoin/blob/master/src/chainparams.cpp) 移到了 [src/kernel/chainparams.cpp](https://github.com/bitcoin/bitcoin/blob/master/src/kernel/chainparams.cpp)，修改 `CMainParams` 类中的变量即可创建新的加密货币
+
+
+参考（注意时效性）：
+- [Complete Guide on How to Create a New Alt Coin](https://bitcointalk.org/index.php?topic=3345808.msg35016844)
+- [How to fork Bitcoin](https://medium.com/@jordan.baczuk/how-to-fork-bitcoin-c39139506443)
+- [How to fork Bitcoin and create your own Blockchain?](https://motion-software.com/blog/how-to-create-your-own-blockchain-network-from-bitcoin)
 
 ---
 
