@@ -41,6 +41,46 @@ by [SHUOSC](https://shuosc.org)
 
 {{% section %}}
 
+## Linux 日用软件速览
+
+本节所介绍软件均可在常见发行版上用包管理器安装
+
+---
+
+### 命令行终端 [Konsole](https://konsole.kde.org/) 和 [Yakuake](https://apps.kde.org/zh-cn/yakuake/)
+
+![konsole](https://konsole.kde.org/assets/img/konsolefancy.png)
+
+---
+
+### 文件管理器 [Dolphin](https://apps.kde.org/zh-cn/dolphin/)
+
+![dolphin-terminal](https://cdn.kde.org/screenshots/dolphin/dolphin-terminal.png)
+
+---
+
+### 终端文件管理器 [ranger](https://github.com/ranger/ranger)
+
+![ranger](https://raw.githubusercontent.com/ranger/ranger-assets/master/screenshots/multipane.png)
+
+---
+
+### 文档查看器 [Okular](https://apps.kde.org/zh-cn/okular/)
+
+![okular](https://cdn.kde.org/screenshots/okular/okular-annotation.png)
+
+---
+
+### 跨平台设备互连软件[KDE Connect](https://apps.kde.org/zh-cn/kdeconnect/)
+
+![kde-connect](https://cdn.kde.org/screenshots/kdeconnect/kcm.png)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
 ## 小目标：从源码编译[Bitcoin Core](https://bitcoincore.org/)
 
 ---
