@@ -1,6 +1,10 @@
 +++
 title = "SHUOSC 2023 分流迎新宣讲"
 outputs = ["Reveal"]
+
+[reveal_hugo]
+theme = "white"
+
 [logo]
 src = "shuosc_full.webp"
 width = "10%" # Overrides diag.
