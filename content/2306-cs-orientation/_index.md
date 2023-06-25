@@ -6,9 +6,9 @@ src = "shuosc_full.webp"
 width = "10%" # Overrides diag.
 +++
 
-## SHUOSC 招新宣讲
+## SHUOSC 迎新宣讲
 
-2023.6.24
+2023.6.25
 
 ---
 
@@ -134,6 +134,7 @@ width = "10%" # Overrides diag.
 
 ### 你可以成为谁
 
+- ~~Arch Linux User~~
 - Independent Researcher
 - Open-minded Lifehacker
 - Self-motivated Learner
@@ -153,14 +154,23 @@ width = "10%" # Overrides diag.
 
 ---
 
+{{% section %}}
+
+| ![](qq_group.webp) | ![](qq_newstu_2023.webp) | 
+| ---- | ---- |
+
+---
+
 微信公众号：SHU开源社区
 
 B 站：上海大学开源社区
 
 QQ 千人大群：24061199
 
-招新答疑 QQ 群：753348594
+招新答疑 QQ 群：871598110
 
 逛逛 https://github.com/shuosc
 
 多来线下活动混脸熟
+
+{{% /section %}}
