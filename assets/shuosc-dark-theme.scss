@@ -1,0 +1,44 @@
+/**
+ * A simple theme for reveal.js presentations, similar
+ * to the default theme. The accent color is darkgreen.
+ *
+ * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "reveal-js/dist/theme/template/mixins";
+@import "reveal-js/dist/theme/template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+SC);
+
+
+// Override theme settings (see ../template/settings.scss)
+$mainFont: 'Noto Sans', 'Noto Sans SC', sans-serif;
+$mainColor: #ffffff;
+$headingFont: 'Noto Sans', 'Noto Sans SC' sans-serif;
+$headingColor: #ffffff;
+$headingTextShadow: none;
+$headingTextTransform: none;
+$backgroundColor: #000000;
+$linkColor: #10BC9C;
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+
+$headingFontWeight: 400;
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.4em;
+$heading4Size: 1.2em;
+
+// Change text colors against dark slide backgrounds
+@include dark-bg-text-color(#fff);
+
+
+// Theme template ------------------------------
+@import "reveal-js/dist/theme/template/theme";
+// ---------------------------------------------
