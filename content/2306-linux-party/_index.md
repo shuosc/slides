@@ -1,7 +1,7 @@
 +++
 title = "Linux Install Party"
 outputs = ["Reveal"]
-
+draft = true
 [reveal_hugo]
 theme = "white"
 

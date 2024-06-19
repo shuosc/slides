@@ -1,7 +1,7 @@
 +++
 title = "SHUOSC 2023 分流迎新宣讲"
 outputs = ["Reveal"]
-
+draft = true
 [reveal_hugo]
 theme = "white"
 

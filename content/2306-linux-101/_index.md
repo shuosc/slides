@@ -1,7 +1,7 @@
 +++
 title = "Linux 101"
 outputs = ["Reveal"]
-
+draft = true
 [reveal_hugo]
 theme = "simple"
 
