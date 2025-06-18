@@ -1,10 +1,10 @@
 +++
-title = "SHUOSC 2024 分流迎新宣讲"
+title = "SHUOSC 2025 迎新"
 outputs = ["Reveal"]
 
 [reveal_hugo]
 theme = "white"
-draft = true
+
 [logo]
 src = "img/shuosc_full.webp"
 width = "10%" # Overrides diag.
@@ -12,7 +12,7 @@ width = "10%" # Overrides diag.
 
 ## SHUOSC 迎新宣讲
 
-2024.6.16
+2025.6.20
 
 ---
 
@@ -57,12 +57,6 @@ width = "10%" # Overrides diag.
 
 ---
 
-编制[溯源手册](https://shuosc.github.io/fly/)，记录前人经验
-
-![](https://user-images.githubusercontent.com/100942238/209382842-8189947a-d228-473e-b21b-938e630fafd7.png)
-
----
-
 贡献开源项目，参与开源活动
 
 [![](img/GSoC_logo.svg)](https://summerofcode.withgoogle.com/get-started)
@@ -71,16 +65,27 @@ width = "10%" # Overrides diag.
 
 ---
 
+组队开坑，造新的轮子
+[<img src="https://build-your-own-x.vercel.app/feynman.png" style="zoom:60%;" />](https://github.com/codecrafters-io/build-your-own-x)
+
+---
+
+找到和你一起学公开课做 Lab 的人
+[<img src="https://csdiy.wiki/images/title.png" style="zoom: 25%;" />](https://csdiy.wiki/)
+
+---
+
 交流技术生活，体验开源乐趣
 
-[![](img/linux_party.webp)](https://shuosc.github.io/slides/2306-linux-party/)
+[![](img/linux_party.webp)](https://shuosc.github.io/slides/2406-linux-party/)
 
---- 
+---
 
 新的想法由你去探索
 
 - 帮助社区改进网站建设
 - 开发实用的群聊天机器人
+- 给镜像站打复活赛
 - ...
 
 {{% /section %}}
@@ -104,8 +109,7 @@ width = "10%" # Overrides diag.
 技术部
 
 - 管理 GitHub 组织，维护社区项目与代码
-- 组队开坑，造新的轮子
-- 自学 CS，互相交流技术
+- 配合组织部进行不定期的简单技术分享
 
 ---
 
@@ -119,8 +123,8 @@ width = "10%" # Overrides diag.
 
 各类 SIG 兴趣小组
 
-- 超算组：学习高性能计算，参加超算竞赛
-- 安全组：学习安全技术，参加 CTF 竞赛
+- [超算组](https://github.com/SHUSCT)：学习高性能计算，参加超算竞赛
+- [安全组](https://github.com/shu-cake1salie)：学习安全技术，参加 CTF 竞赛
 - 前端/Java/Python/漫研...如果你找得到人
 
 {{% /section %}}
@@ -131,7 +135,7 @@ width = "10%" # Overrides diag.
 
 ### 我们在寻找谁
 
-- 「异类」：爱好技术，乐于分享
+- 「异类」：爱好技术，乐于分享，有[ Hacker 精神](https://en.wikipedia.org/wiki/Hacker_culture)
 - 「正常人」：不故作抽象，不盲目乱卷
 
 ---
@@ -153,6 +157,13 @@ width = "10%" # Overrides diag.
 > Just For Fun 
 > ——[Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds#Bibliography)
 
+---
+
+- 我们都是活生生的人，从小就被不由自主地教导用最小的付出获得最大的得到，经常会忘记我们究竟要的是什么。我承认我完美主义，但我想每个人心中都有那一份求知的渴望和对真理的向往，"大学"的灵魂也就在于超越世俗，超越时代的纯真和理想。我们不是要讨好企业的毕业生，而是要寻找改变世界的力量。—— [jyy](https://jyywiki.cn/)
+
+---
+
+- 学计算机一定要有一个非常强大的心理状态，计算机的所有东西都是人做出来的，别人能想的出来的我也一定能想的出来，在计算机里头没有任何黑魔法，所有的东西只不过是我现在不知道而已，总有一天我会把所有的细节、所有的内部的东西全搞明白的。—— 翁恺
 
 {{% /section %}}
 
@@ -160,7 +171,7 @@ width = "10%" # Overrides diag.
 
 {{% section %}}
 
-| ![](img/qq_group.png) | ![](img/qq_newstu_2024.png) | 
+| ![](img/qq_asc.jpg) | ![](img/qq_newstu_2025.jpg) | 
 | ---- | ---- |
 
 ---
@@ -168,8 +179,6 @@ width = "10%" # Overrides diag.
 微信公众号：SHU开源社区
 
 B 站：上海大学开源社区
-
-QQ 千人大群：24061199
 
 招新答疑 QQ 群：713134660
 
