@@ -1,5 +1,5 @@
 module github.com/shuosc/slides
 
-go 1.20
+go 1.24.4
 
-require github.com/dzello/reveal-hugo v0.0.0-20240121164136-5e38035fe41f // indirect
+require github.com/joshed-io/reveal-hugo v0.0.0-20241030080325-e191f51d09be // indirect

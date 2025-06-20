@@ -1,4 +1,4 @@
-## GitHub Page hosting slides powered by [reveal-hugo](https://github.com/dzello/reveal-hugo)
+## GitHub Page hosting slides powered by [reveal-hugo](https://github.com/joshed-io/reveal-hugo)
 
 本地部署：
 

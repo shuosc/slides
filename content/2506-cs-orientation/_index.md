@@ -66,7 +66,7 @@ width = "10%" # Overrides diag.
 ---
 
 组队开坑，造新的轮子
-[<img src="https://build-your-own-x.vercel.app/feynman.png" style="zoom:60%;" />](https://github.com/codecrafters-io/build-your-own-x)
+[<img src="img/feynman.png" style="zoom:60%;" />](https://github.com/codecrafters-io/build-your-own-x)
 
 ---
 

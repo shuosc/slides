@@ -1,4 +1,4 @@
-theme = ["github.com/dzello/reveal-hugo"]
+theme = ["github.com/joshed-io/reveal-hugo"]
 baseURL = 'https://shuosc.github.io/slides'
 canonifyURLs = true  # Fix GitHub Pages wrong path
 
