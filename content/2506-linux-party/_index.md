@@ -5,7 +5,7 @@ outputs = ["Reveal"]
 [reveal_hugo]
 custom_theme = "shuosc-light-theme.scss"
 custom_theme_compile = true
-draft = true
+
 [logo]
 src = "/shuosc.webp"
 width = "7%" # Overrides diag.
@@ -92,6 +92,7 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 - 方便的包管理器（apt, pacman...）
 - 详细的报错提示和日志信息
 - 接近实际服务器环境
+- 广泛的文档和社区支持
 
 ---
 
@@ -115,8 +116,11 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 ### 日常使用
 
 - 办公学习
+  - 在国内大[信创](https://zh.wikipedia.org/wiki/%E4%BF%A1%E5%88%9B)背景下，QQ、微信、WPS 等主流客户端都已经为 Linux 提供原生支持
 - 娱乐
+  - 在 Wine/Proton 的帮助下，越来越多游戏的 Linux 兼容性和性能得到[改善](https://www.protondb.com/explore)，甚至部分程序转译运行的性能超过了原生 Windows 运行
 - 开发
+  - 除去专有平台生态外，无可争议的首选开发环境
 - ...
 
 {{% /section %}}
@@ -146,7 +150,7 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 
 - 简单易上手，适合新手
 - 基于 Debian，有着丰富软件源
-- Canonical 公司运营，~~商业推广出色~~
+- Canonical 公司运营，商业推广出色
 - 群众基础广泛，有大量的教程和问答
 
 ---
@@ -159,18 +163,11 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 - 适合有 DIY 需求的用户
 
 ---
-### <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Manjaro_logo_text.svg" alt="Manjaro" width="700"/>
-
-- 基于 Arch Linux，但安装更友好，适合新手
-- 界面美观，自带驱动，可更换内核
-- 能沿用 Arch Linux 的软件源和文档（易出问题
-
----
 ### <img src="https://raw.githubusercontent.com/endeavouros-team/artwork-images-logo/master/endeavouros-logo-text.svg" alt="EndeavourOS" width="750"/>
 
 - 基于 Arch Linux，但安装更友好
 - 界面美观，保持精简，适合 DIY 用户
-- 直接使用 Arch Linux 软件源，与上游完全同步
+- 直接使用 Arch Linux 软件源，与上游完全同步（避免 Manjaro 的软件源问题）
 
 ---
 ### <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Fedora_logo_%282021%29.svg" alt="Fedora" width="700"/>
@@ -179,18 +176,20 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 - 有着丰富的软件源
 - Linus Torvalds 使用的发行版
 - 适合有一定 Linux 基础的用户
+
 ---
 ### <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/OpenSUSE_Logo.svg" alt="openSUSE" width="500"/>
 
 - 新手友好，易于上手，有着优秀的桌面环境体验
-- 特性丰富，YaST 以简便直接的形式控制系统的一切
 - 坚如磐石，比较稳定，有社区和商业支持
 ---
 ### <img src="https://raw.githubusercontent.com/AOSC-Dev/logo/master/aosc-os-branding.zh_CN.svg" alt="AOSC OS" width="800"/>
 
 - 多语言支持开箱即用
+- 积极的中文社区支持
 - 各架构体验统一且优化充分
 - 预装针对特定地区的网络连通工具
+
 ---
 ### <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Kali_Linux_2.0_wordmark.svg" alt="KALI Linux" width="600"/>
 
@@ -216,7 +215,7 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 
 - 社区驱动，~~起夜级~~稳定
 - CentOS 7 将于 2024 年 6 月 30 日停止维护
-- 所有 CentOS 用户都应该尽快将生产环境迁移到 Rocky Linux 等替代品
+- **所有 CentOS 用户都应该尽快将生产环境迁移到 Rocky Linux 等替代品**
 
 {{% /section %}}
 
@@ -240,7 +239,7 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 
 ### GNOME
 
-![GNOME](https://www.gnome.org/wp-content/uploads/2023/09/GNOME45-splash.webp)
+![GNOME](https://www.gnome.org/img/download.webp)
 
 ---
 ### KDE
@@ -252,6 +251,12 @@ Linux 是开源的，你可以自由地使用、复制、分发、学习、修�
 ### Xfce
 
 ![Xfce](https://cdn.xfce.org/about/screenshots/4.18-1.png)
+
+---
+
+### Hyprland
+
+![Hyprland](https://hypr.land/ricing_competitions/1/amadeus.webp)
 
 {{% /section %}}
 
@@ -323,8 +328,8 @@ proot-distro install debian
 
 ### 自力更生
 
-- RTFM: Read The Manual
-- STFW: Search The Web
+- RTFM: Read The Friendly Manual
+- STFW: Search The Friendly Web
 
 ---
 
